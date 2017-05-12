@@ -1,0 +1,6 @@
+Generator.java: Creates a graph of given size. 
+Run: java Generator 10000
+
+
+project.c : Colors the graph in parallel
+Run: mpirun -np 32 ./project 32
